@@ -19,10 +19,9 @@ function whileLoop(number) {
 
 function doWhileLoop(array) {
   function incrementVariable() {
-    do  {
       array.pop();
     }
     while (array.length > 0 && incrementVariable());
   }
-  return array
+  return array;
 }
